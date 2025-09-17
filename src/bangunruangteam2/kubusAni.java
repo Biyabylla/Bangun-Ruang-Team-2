@@ -9,5 +9,26 @@ package bangunruangteam2;
  * @author Nabila
  */
 public class kubusAni {
+    private double sisi;
+
+    // setter
+    public void setsisi(double sisi) {
+        this.sisi = sisi;
+    }
+
+    // getter
+    public double getsisi() {
+        return this.sisi;
+    }
+
+    // rumus volume kubus
+    public double getVolume() {
+        return sisi * sisi * sisi;
+    }
+
+    // rumus luas permukaan kubus
+    public double getLuasPermukaan() {
+        return 6 * (sisi * sisi);
+    }
     
 }
