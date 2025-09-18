@@ -10,4 +10,7 @@ package bangunruangteam2;
  */
 public class bangunRuangAlasPersegi {
     
+    public static void main(String[] args) {
+ 
+    }      
 }

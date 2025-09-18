@@ -10,4 +10,27 @@ package bangunruangteam2;
  */
 public class alasPersegiAhid {
     
+    private double Sisi;
+    private double Tinggi;
+    
+    public void setSisi(double Sisix){
+        this.Sisi = Sisix;
+    }
+    public void setTinggi(double Tinggix){
+        this.Tinggi = Tinggix;
+    }
+    public double getSisi(){
+        return this.Sisi;
+    }
+    public double getTinggi(){
+        return this.Tinggi;
+    }
+    public double getVolume(){
+        return Sisi * Sisi * Tinggi;
+    }
+    public double getLuasPermukaan(){
+        return (2 * (Sisi * Sisi)) + (4 * (Sisi * Tinggi));
+    }
+            
 }
+
