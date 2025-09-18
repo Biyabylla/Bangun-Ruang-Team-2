@@ -15,6 +15,11 @@ public class BangunRuangTeam2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+         kubusAni ka = new kubusAni();
+        
+        ka.setsisi(14);
+        System.out.println("volume kubus = "+ka.getVolume());
+        System.out.println("luas permukaan kubus = "+ka.getLuasPermukaan());
+    }
     }
     
-}

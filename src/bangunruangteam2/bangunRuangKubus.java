@@ -11,10 +11,5 @@ package bangunruangteam2;
 public class bangunRuangKubus {
      public static void main(String[] args) {
         // TODO code application logic here
-        kubusAni cb = new kubusAni();
-        
-        cb.setsisi(14);
-        System.out.println("volume kubus = "+cb.getVolume());
-        System.out.println("luas permukaan kubus = "+cb.getLuasPermukaan());
-    }
+     }
 }
