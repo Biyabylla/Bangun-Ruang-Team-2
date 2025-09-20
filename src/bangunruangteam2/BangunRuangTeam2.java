@@ -15,4 +15,4 @@ public class BangunRuangTeam2 {
      */
     public static void main(String[] args) {
 
-    }
+    }}
