@@ -22,13 +22,13 @@ public class kubusAni {
     }
 
     // rumus volume kubus
-    public double getVolume() {
+    public double setVolume() {
         return sisi * sisi * sisi;
     }
 
     // rumus luas permukaan kubus
-    public double getLuasPermukaan() {
-        return 6 * (sisi * sisi);
+    public double setLuasPermukaan() {
+        return 6 * sisi * sisi;
     }
     
 }

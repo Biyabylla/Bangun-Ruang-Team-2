@@ -18,8 +18,8 @@ public class BangunRuangTeam2 {
          kubusAni ka = new kubusAni();
         
         ka.setsisi(14);
-        System.out.println("volume kubus = "+ka.getVolume());
-        System.out.println("luas permukaan kubus = "+ka.getLuasPermukaan());
+        System.out.println("volume kubus = "+ka.setVolume());
+        System.out.println("luas permukaan kubus = "+ka.setLuasPermukaan());
     }
     }
     
