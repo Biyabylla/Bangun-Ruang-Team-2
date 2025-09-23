@@ -32,12 +32,12 @@ public class tabungAngga {
     }
 
     // Hitung Volume Tabung
-    public double getVolume() {
+    public double setVolume() {
         return Math.PI * jariJari * jariJari * tinggi;
     }
 
     // Hitung Luas Permukaan Tabung
-    public double getLuasPermukaan() {
+    public double setLuasPermukaan() {
         return 2 * Math.PI * jariJari * (jariJari + tinggi);
     }
 }

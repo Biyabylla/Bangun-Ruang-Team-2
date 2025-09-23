@@ -22,7 +22,7 @@ public class BangunRuangTeam2 {
         tabung.setTinggi(10);   // contoh tinggi = 10
 
         // Tampilkan hasil
-        System.out.println("Volume Tabung \t\t= " + tabung.getVolume());
-        System.out.println("Luas Permukaan Tabung \t= " + tabung.getLuasPermukaan());
+        System.out.println("Volume Tabung \t\t= " + tabung.setVolume());
+        System.out.println("Luas Permukaan Tabung \t= " + tabung.setLuasPermukaan());
     } 
 }
