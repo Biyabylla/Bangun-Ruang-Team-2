@@ -84,7 +84,6 @@ public class FrameTabung extends javax.swing.JFrame {
         });
 
         panel_Output.setBackground(new java.awt.Color(204, 204, 204));
-        panel_Output.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createTitledBorder(null, "OutPut\n", null, null, null, new java.awt.Color(0, 0, 0)), "OutPut", null, null, null, new java.awt.Color(0, 0, 0)));
         panel_Output.setForeground(new java.awt.Color(0, 0, 0));
         panel_Output.setToolTipText("OUTPUT");
         panel_Output.setName(""); // NOI18N
@@ -116,22 +115,22 @@ public class FrameTabung extends javax.swing.JFrame {
         panel_OutputLayout.setHorizontalGroup(
             panel_OutputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panel_OutputLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(panel_OutputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGap(23, 23, 23)
+                .addGroup(panel_OutputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(panel_OutputLayout.createSequentialGroup()
                         .addComponent(label_TeksLuasPermukaan)
                         .addGap(18, 18, 18)
-                        .addComponent(tf_LuasPermukaan, javax.swing.GroupLayout.PREFERRED_SIZE, 314, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(tf_LuasPermukaan))
                     .addGroup(panel_OutputLayout.createSequentialGroup()
                         .addComponent(label_TeksVolume)
                         .addGap(88, 88, 88)
-                        .addComponent(tf_Volume, javax.swing.GroupLayout.PREFERRED_SIZE, 314, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap())
+                        .addComponent(tf_Volume, javax.swing.GroupLayout.PREFERRED_SIZE, 360, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         panel_OutputLayout.setVerticalGroup(
             panel_OutputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panel_OutputLayout.createSequentialGroup()
-                .addGap(33, 33, 33)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel_OutputLayout.createSequentialGroup()
+                .addContainerGap(56, Short.MAX_VALUE)
                 .addGroup(panel_OutputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(label_TeksVolume)
                     .addComponent(tf_Volume, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -139,7 +138,7 @@ public class FrameTabung extends javax.swing.JFrame {
                 .addGroup(panel_OutputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(tf_LuasPermukaan, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(label_TeksLuasPermukaan))
-                .addContainerGap(72, Short.MAX_VALUE))
+                .addGap(49, 49, 49))
         );
 
         button_Kembali.setBackground(new java.awt.Color(255, 255, 255));
