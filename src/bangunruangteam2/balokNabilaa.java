@@ -37,11 +37,11 @@ public class balokNabilaa {
         return this.tinggi;
     }
 
-    public double getVolume() {
+    public double setVolume() {
         return panjang * lebar * tinggi;
     }
 
-    public double getLuasPermukaan() {
+    public double setLuasPermukaan() {
         return 2 * ((panjang * lebar) + (panjang * tinggi) + (lebar * tinggi));
     }
 }

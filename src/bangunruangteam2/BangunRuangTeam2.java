@@ -79,8 +79,8 @@ public class BangunRuangTeam2 {
         bn.setLebar(200);
         bn.setTinggi(300);
 
-        System.out.println("Volume Balok \t= " + bn.getVolume());
-        System.out.println("Luas Permukaan Balok \t= " + bn.getLuasPermukaan());
+        System.out.println("Volume Balok \t= " + bn.setVolume());
+        System.out.println("Luas Permukaan Balok \t= " + bn.setLuasPermukaan());
 
     }
 }
