@@ -25,10 +25,10 @@ public class alasPersegiAhid {
     public double getTinggi(){
         return this.Tinggi;
     }
-    public double getVolume(){
+    public double setVolume(){
         return Sisi * Sisi * Tinggi;
     }
-    public double getLuasPermukaan(){
+    public double setLuasPermukaan(){
         return (2 * (Sisi * Sisi)) + (4 * (Sisi * Tinggi));
     }
             

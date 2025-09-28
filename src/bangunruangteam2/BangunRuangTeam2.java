@@ -20,8 +20,8 @@ public class BangunRuangTeam2 {
        B2.setSisi(8);
        B2.setTinggi(12);
        
-        System.out.println("Volume balok alas persegi : " + B2.getVolume());
-        System.out.println("Luas permukaan balok alas persegi : " + B2.getLuasPermukaan());
+        System.out.println("Volume balok alas persegi : " + B2.setVolume());
+        System.out.println("Luas permukaan balok alas persegi : " + B2.setLuasPermukaan());
        
        
     }
