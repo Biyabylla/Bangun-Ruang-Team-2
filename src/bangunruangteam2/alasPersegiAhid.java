@@ -8,7 +8,7 @@ package bangunruangteam2;
  *
  * @author Nabila
  */
-public class alasPersegiAhid {
+public class alasPersegiAhid  {
     
     private double Sisi;
     private double Tinggi;
