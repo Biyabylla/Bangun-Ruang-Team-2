@@ -8,8 +8,15 @@ package bangunruangteam2;
  *
  * @author Nabila
  */
-public class bangunRuangKubus {
-     public static void main(String[] args) {
-        // TODO code application logic here
-     }
+public class bangunRuang {
+    double luas, volume;
+
+    public double getLuas() {
+        return luas;
+    }
+
+    public double getVolume() {
+        return volume;
+    }
+    
 }

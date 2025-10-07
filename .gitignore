@@ -1,2 +1,14 @@
+build/
+dist/
+nbproject/private/
+*.class
+*.log
+*.tmp
+*.jar
+*.iml
+.idea/
+.DS_Store
+Thumbs.db
 /nbproject/private/
 /build/
+/dist/

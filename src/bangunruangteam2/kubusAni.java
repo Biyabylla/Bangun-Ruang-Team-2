@@ -8,7 +8,7 @@ package bangunruangteam2;
  *
  * @author Nabila
  */
-public class kubusAni {
+public class kubusAni extends bangunRuang{
     private double sisi;
 
     // setter
