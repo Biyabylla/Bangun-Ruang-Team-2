@@ -204,11 +204,11 @@ public class FRAMEkerucut extends javax.swing.JFrame {
         ki.setjarijari(Double.parseDouble(Tjari.getText()));
         ki.settinggi(Double.parseDouble(TTinggi.getText()));
         
-        ki.setvolume();
-        ki.setluaspermukaan();
+        ki.getvolume();
+        ki.getluaspermukaan();
         
-        VVOLUME.setText(String.valueOf(ki.setvolume()));
-        VLUASPERMUKAAN.setText(String.valueOf(ki.setluaspermukaan()));
+        VVOLUME.setText(String.valueOf(ki.getvolume()));
+        VLUASPERMUKAAN.setText(String.valueOf(ki.getluaspermukaan()));
        
     }//GEN-LAST:event_thitungActionPerformed
 
