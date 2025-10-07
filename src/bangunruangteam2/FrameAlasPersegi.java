@@ -222,11 +222,11 @@ public class FrameAlasPersegi extends javax.swing.JFrame {
         APA.setSisi(Double.parseDouble(TSisi.getText()));
         APA.setTinggi(Double.parseDouble(TTinggi.getText()));
         
-        APA.setVolume();
-        APA.setLuasPermukaan();
+        APA.getVolume();
+        APA.getLuasPermukaan();
         
-        VVolume.setText(String.valueOf(APA.setVolume()));
-        VLuasAlas.setText(String.valueOf(APA.setLuasPermukaan()));
+        VVolume.setText(String.valueOf(APA.getVolume()));
+        VLuasAlas.setText(String.valueOf(APA.getLuasPermukaan()));
         
     }//GEN-LAST:event_THitungActionPerformed
 

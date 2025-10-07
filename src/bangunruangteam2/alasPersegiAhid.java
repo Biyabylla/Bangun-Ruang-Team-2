@@ -8,7 +8,7 @@ package bangunruangteam2;
  *
  * @author Nabila
  */
-public class alasPersegiAhid  {
+public class alasPersegiAhid extends bangunRuang {
     
     private double Sisi;
     private double Tinggi;
@@ -25,10 +25,10 @@ public class alasPersegiAhid  {
     public double getTinggi(){
         return this.Tinggi;
     }
-    public double setVolume(){
+    public double getVolume(){
         return Sisi * Sisi * Tinggi;
     }
-    public double setLuasPermukaan(){
+    public double getLuasPermukaan(){
         return (2 * (Sisi * Sisi)) + (4 * (Sisi * Tinggi));
     }
             
