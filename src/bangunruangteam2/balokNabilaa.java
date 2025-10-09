@@ -8,11 +8,21 @@ package bangunruangteam2;
  *
  * @author Nabila
  */
-public class balokNabilaa {
+public class balokNabilaa extends bangunRuang{
     private double panjang;
     private double lebar;
     private double tinggi;
-
+    
+    public balokNabilaa(){
+    super();
+    }
+    
+    public balokNabilaa(double panjang, double lebar, double tinggi){
+    super();
+    this.panjang = panjang;
+    this.lebar = lebar;
+    this.tinggi = tinggi;
+    }
     public void setPanjang(double panjang) {
         this.panjang = panjang;
     }
@@ -43,5 +53,15 @@ public class balokNabilaa {
 
     public double setLuasPermukaan() {
         return 2 * ((panjang * lebar) + (panjang * tinggi) + (lebar * tinggi));
+    }
+    @Override
+    public void tampilkan(){
+    super.tampilkan();
+        System.out.println("-------- Balok --------");
+        System.out.println("Panjang = " + panjang);
+        System.out.println("Lebar = " + lebar);
+        System.out.println("tinggi = " + tinggi);
+        System.out.println("Luas = " + luas);
+        System.out.println("Volume = " + volume);
     }
 }
