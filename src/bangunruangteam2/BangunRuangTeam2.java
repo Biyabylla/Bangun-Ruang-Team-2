@@ -36,8 +36,8 @@ public class BangunRuangTeam2 {
         kubusAni ka = new kubusAni();
 
         ka.setsisi(14);
-        System.out.println("V  = " + ka.setVolume());
-        System.out.println("L  = " + ka.setLuasPermukaan());
+        System.out.println("V  = " + ka.getVolume());
+        System.out.println("L  = " + ka.getLuasPermukaan());
         
         System.out.println("-------- Alas Persegi --------");
         System.out.println("Rumus Volume (V) = S * S * t");

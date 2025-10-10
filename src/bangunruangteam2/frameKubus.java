@@ -182,11 +182,11 @@ public class frameKubus extends javax.swing.JFrame {
         kubusAni ka = new kubusAni();
         
         ka.setsisi(Double.parseDouble(tSisi.getText()));
-        ka.setVolume();
-        ka.setLuasPermukaan();
+        ka.getVolume();
+        ka.getLuasPermukaan();
         
-        vVolume.setText(String.valueOf(ka.setVolume()));
-        vLuas.setText(String.valueOf(ka.setLuasPermukaan()));
+        vVolume.setText(String.valueOf(ka.getVolume()));
+        vLuas.setText(String.valueOf(ka.getLuasPermukaan()));
     }//GEN-LAST:event_bHitungActionPerformed
 
     private void bKembaliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bKembaliActionPerformed

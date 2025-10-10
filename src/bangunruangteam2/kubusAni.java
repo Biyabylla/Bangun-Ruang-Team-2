@@ -22,13 +22,23 @@ public class kubusAni extends bangunRuang{
     }
 
     // rumus volume kubus
-    public double setVolume() {
-        return sisi * sisi * sisi;
+    public double getVolume() {
+        volume = sisi * sisi * sisi;
+        return volume;
     }
 
     // rumus luas permukaan kubus
-    public double setLuasPermukaan() {
-        return 6 * sisi * sisi;
+    public double getLuasPermukaan() {
+        luas = 6 * sisi * sisi;
+        return luas;
     }
+    
+    @Override
+  public void tampilkan(){
+        System.out.println("========KUBUS========");
+        System.out.println("Sisi :" + sisi);
+        System.out.println("Luas :" + luas);
+        System.out.println("Volume :" + volume);
+  }
     
 }

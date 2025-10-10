@@ -10,6 +10,11 @@ package bangunruangteam2;
  */
 public class bangunRuang {
     public static void main(String[] args) {
+        kubusAni k = new kubusAni();
+       k.setsisi(14);
+       k.getLuasPermukaan();
+       k.getVolume();
+       k.tampilkan();
     }
     double luas, volume;
 
