@@ -9,6 +9,8 @@ package bangunruangteam2;
  * @author Nabila
  */
 public class bangunRuang {
+    public static void main(String[] args) {
+    }
     double luas, volume;
 
     public double getLuas() {
@@ -18,5 +20,9 @@ public class bangunRuang {
     public double getVolume() {
         return volume;
     }
-    
+    public void tampilkan(){
+        System.out.println("Luas : " + luas);
+        System.out.println("Volume : " + volume);
+    }
 }
+
