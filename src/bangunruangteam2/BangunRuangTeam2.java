@@ -27,7 +27,7 @@ public class BangunRuangTeam2 {
 
         System.out.println("volume kerucut=" + k2.getvolume());
         System.out.println("luas permukaan kerucut=" + k2.getluaspermukaan());
-        
+
         System.out.println("-------- Kubus --------");
         System.out.println("Rumus Volume (V) = S * S * S");
         System.out.println("Rumus Luas Permukaan (L) = 6 * sisi * sisi");
@@ -38,7 +38,7 @@ public class BangunRuangTeam2 {
         ka.setsisi(14);
         System.out.println("V  = " + ka.setVolume());
         System.out.println("L  = " + ka.setLuasPermukaan());
-        
+
         System.out.println("-------- Alas Persegi --------");
         System.out.println("Rumus Volume (V) = S * S * t");
         System.out.println("Rumus Luas Permukaan (L) = 2 x (S * S * t)");
@@ -51,7 +51,7 @@ public class BangunRuangTeam2 {
 
         System.out.println("Volume balok alas persegi : " + B2.getVolume());
         System.out.println("Luas permukaan balok alas persegi : " + B2.getLuasPermukaan());
-        
+
         // Buat objek Tabung
         System.out.println("-------- Tabung --------");
         System.out.println("Rumus Volume (V) =  3.14 * r * r * t");
@@ -67,7 +67,7 @@ public class BangunRuangTeam2 {
         // Tampilkan hasil
         System.out.println("Volume Tabung \t\t= " + tabung.getVolume());
         System.out.println("Luas Permukaan Tabung \t= " + tabung.getLuasPermukaan());
-        
+
         System.out.println("-------- Balok --------");
         System.out.println("Rumus Volume (V) =  p * l * t");
         System.out.println("Rumus Luas Permukaan (L) = 2 * (p * l + P * t + l * t)");
@@ -81,6 +81,20 @@ public class BangunRuangTeam2 {
 
         System.out.println("Volume Balok \t= " + bn.setVolume());
         System.out.println("Luas Permukaan Balok \t= " + bn.setLuasPermukaan());
+
+        System.out.println("-------- Bola --------");
+        System.out.println("Rumus Volume (V) = 4/3 * π * r³");
+        System.out.println("Rumus Luas Permukaan (L) = 4 * π * r²");
+        System.out.println("Diketahui : Jari-jari = 10");
+        System.out.println("Ditanya : V, L?");
+        bolaAzik bola = new bolaAzik();
+
+        bola.setJariJari(10);
+
+        System.out.println("Volume Bola \t\t= " + bola.setVolume());
+        System.out.println("Luas Permukaan Bola \t= " + bola.setLuasPermukaan());
+
+        System.out.println("\n========================= Selesai =========================");
 
     }
 }
